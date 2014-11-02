@@ -1,0 +1,9 @@
+<template name="postsList">
+  <div class="posts">
+    <!-- iterating over each item in the posts list -->
+    {{#each posts}}
+    	<!-- invoking the postItem template for each item in the posts list -->
+    	{{> postItem}}
+	{{/each}}
+  </div>
+</template>
